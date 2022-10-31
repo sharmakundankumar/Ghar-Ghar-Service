@@ -1,0 +1,55 @@
+.service {
+    text-align: center;
+  }
+  
+  .service h1 {
+    font-family: "Playfair Display", serif;
+    margin: 20px;
+    font-size: 3.5rem;
+  }
+  
+  .service .service-items {
+    display: inline-block;
+  }
+  
+  .service .service-items .item {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service .service-items .item div {
+    margin: 20px;
+  }
+  
+  .service .service-items .item div h4 {
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .service .service-items .item img {
+    height: 400px;
+    width: 400px;
+  }
+  
+  @media only screen and (max-width: 767px){
+    .service .service-items .item{
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 452px){
+    .service .service-items .item img {
+      height: 300px;
+      width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 350px){
+    .service .service-items .item img {
+      height: 230px;
+      width: 230px;
+    }
+  }

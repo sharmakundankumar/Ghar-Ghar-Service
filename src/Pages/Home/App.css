@@ -1,0 +1,63 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .home .main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .home .cardbox{
+    text-align: center;
+  }
+
+  .home .cardbox .cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .home .cardbox .cards .card{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .home h1 {
+    font-size: 3.5rem;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .home p {
+    font-size: 1.5rem;
+    font-family: "PT Serif", serif;
+  }
+  
+  .home .left img {
+    height: 80vh;
+  }
+  
+  @media only screen and (max-width: 1199px){
+    .home .main{
+      flex-direction: column;
+    }
+    .home .left img {
+      height: 60vh;
+    }
+    .home .cardbox .cards{
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 483px){
+    .home .left img {
+      height: 35vh;
+    }
+  }

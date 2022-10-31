@@ -1,0 +1,31 @@
+.contact {
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .contact h1 {
+    font-family: "Playfair Display", serif;
+  
+    font-size: 60px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.599);
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .contact form button {
+    margin-top: 30px;
+  }
+
+  @media only screen and (max-width: 465px){
+    .contact form{
+      width: 90%;
+    }
+  }

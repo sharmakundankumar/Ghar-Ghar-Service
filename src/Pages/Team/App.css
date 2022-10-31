@@ -1,0 +1,44 @@
+.teams {
+    text-align: center;
+  }
+  
+  .teams .co-team {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .teams h1 {
+    font-family: "Playfair Display", serif;
+    margin: 20px;
+    font-size: 3.5rem;
+  }
+  
+  .teams .co-team h2 {
+    font-family: "PT Serif", serif;
+    font-size: 2.5rem;
+  }
+  
+  .members {
+    display: flex;
+  }
+  
+  .teams .co-team .card {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .teams .co-team .card img {
+    height: 383px;
+  }
+  
+  @media only screen and (max-width: 991px){
+    .members {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 351px){
+    .teams .co-team .card img {
+      height: 263px;
+    }
+  }

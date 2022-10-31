@@ -1,0 +1,86 @@
+.about {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #000;
+  }
+  
+  .about h1 {
+    font-family: "Playfair Display", serif;
+    margin: 20px;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .about .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .about .details h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.599);
+  }
+  
+  .about .details img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .about .details div img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .about .details .service h3 {
+    margin: 20px 0;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.599);
+  }
+  
+  .about .details .service {
+    padding: 20px;
+  }
+  
+  .about .details .service .ser div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #fff;
+  }
+  
+  .about .details .service h3 img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .about .details .service div img {
+    height: 10px;
+    width: 10px;
+  }
+  
+  .about .details img {
+    margin-bottom: 5px;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .about .details .serv div a {
+    font-size: larger;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .about .details .serv .Box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }

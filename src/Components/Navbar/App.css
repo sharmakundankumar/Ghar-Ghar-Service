@@ -1,0 +1,20 @@
+.navbar .container-fluid img{
+    height: 40px;
+}
+
+.navbar .container-fluid .navbar-nav a{
+    font-size: 1.3rem;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.navbar .container-fluid .navbar-nav a:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    transform: scale(1);
+}
+
+.navbar .container-fluid .navbar-nav a:active{
+    font-weight: 500;
+}
